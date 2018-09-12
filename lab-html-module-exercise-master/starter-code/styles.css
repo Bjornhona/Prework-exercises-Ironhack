@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 30px 0;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0 0 30px 0;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 350;
+  padding: 0 0 25px 0;
+  color: rgb(83, 88, 98);
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav {
+  display: inline;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart {
+  padding: 0 30px;
+}
+
+.logo {
+  float: left;
+  width: 95px;
+  padding: 0 15px 0 0;
+}
+
+.form {
+  float: left;
+  width: 65%;
+}
+
+.bear-logo {
+  float: left;
+  width: 35px;
+}
+
+.signup-or-login {
+  float: left;
+  color: white;
+  padding: 7px 10px 0 15px;
+}
+
+.signup-or-login a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-searchbar {
+  background-color: rgb(32, 101, 136);
+  height: 30px;
+  padding: 10px 15px;
+}
+
+.search-field {
+  float: left;
+  background-color: rgb(31, 82, 111);
+  border: rgb(32, 101, 136) solid 1px;
+  color: rgba(255,255,255,0.8);
+  height: 30px;
+  width: 92%;
+  padding: 0 5px;
+}
+
+.search-button {
+  float: left;
+  background-color: rgb(31, 82, 111);
+  border: rgb(32, 101, 136) solid 1px;
+  height: 32px;
+  width: 5%;
+}
+
+.content {
+  margin: 0 auto;
+  color: white;
+}
+
+.header-width {
+  max-width: 500px;
+}
+
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 85px 0 100px 0;
+}
+
+.header-background {
+  background-image: url("images/city-scape.svg");
+  background-color: rgb(32, 101, 136);
+}
+
+.buttons {
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  margin: 30px 0 10px 0;
+}
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  padding: 100px 0;
+}
+
+.collaboration-content {
+  float: right;
+  max-width: 380px;
+}
+
+.collaboration-img {
+  float: left;
+  max-width: 450px;
+  padding: 0 70px 0 0;
+}
+
+.img-and-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.npm-list {
+  padding: 0 0 0 15px;
+  line-height: 2.5em;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#yellow-button {
+  background-color: rgb(240, 146, 51);
+}
+
+#red-button {
+  background-color: rgb(203, 56, 55);
+}
+
+#blue-button {
+  background-color: rgb(49, 68, 88);
+}
+
+#whatis {
+  background-image: url("images/forklift.svg");
+  position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 15px 0 0;
+}
+
+.whatis-content {
+  float: center;
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+.buildingblocks-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+  max-width: 900px;
+}
+
+.buildingblocks-sections {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.grey-text {
+  font-size: 17px;
+  color: rgb(135, 145, 156);
+  font-weight: 300;
+}
+
+.white-text {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.content-width {
+  max-width: 400px;
+}
+
+#buildingblocks {
+  margin: 50px 0 100px 0;
+  text-align: center;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 27%;
+}
+
+.col-middle {
+  margin: 0 9.5%;
+}
+
+.icons {
+  padding: 25px 0;
+  height: 100px;
+}
+
+#find a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+  font-weight: 500;
+}
